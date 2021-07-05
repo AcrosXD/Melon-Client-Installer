@@ -5,20 +5,22 @@ import time
 from pathlib import Path
 import os.path
 from os import path
-import patoolib
+# import patoolib
 import shutil
 import subprocess
+import zipfile
+
 
 minecraftDir = input("Chemin d'accès vers vôte .minecraft:\n")
 folder = str(Path(__file__).resolve().parent)
-url = "https://cloud.mathildeuh.fr/index.php/s/8dbNeEP9adAfrgM/download/melon.rar"
+url = "https://cloud.mathildeuh.fr/index.php/s/n5MC5J4seNo33ZT/download/melon.zip"
 
-if path.exists(folder + "/Client.rar"):
-    print("Client.rar déjà téléchargé, installations en cours.")    
+if path.exists(folder + "/Client.zip"):
+    print("Client.zip déjà téléchargé, installations en cours.")    
     time.sleep(1)
 
 else:
-    wget.download(url, folder + "/Client.rar" ) 
+    wget.download(url, folder + "/Client.zip" ) 
     time.sleep(1)
 
 if path.exists(folder + "/Client"):
@@ -26,7 +28,8 @@ if path.exists(folder + "/Client"):
     time.sleep(1)
 
 else:
-    patoolib.extract_archive( folder + "/Client.rar" , outdir=folder +"/Client")
+    with zipfile.ZipFile(folder + "/Client.zip","r") as zip_ref:
+        zip_ref.extractall(folder + "/Client")
     time.sleep(1)
 
 
