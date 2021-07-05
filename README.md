@@ -1,13 +1,17 @@
 # Melon-Client-Installer
 
-## Instructions:
+## USAGE:
 
-  _**INSTALLEZ PYTHON !**_ (https://www.python.org/downloads/)
+  fill with some infos 
+
+## INSTALLATION:
+
+  _**INSTALL PYTHON !**_ (https://www.python.org/downloads/)
   
-  Lancez requirements.bat pour installer les dépendences.
+  Run requirements.bat to install the dependencies.
 
-  Puis lancez Installer.bat pour installer "Melon Client" + Optifine.
+  Then run Install.bat to install "Melon Client" + Optifine.
 
-  Lancez vôtre minecraft et choisisez "Melon Client".
+  Run your minecraft and choose "Melon Client".
 
-  Melon client à été installé !
+  Melon client has been installed !
