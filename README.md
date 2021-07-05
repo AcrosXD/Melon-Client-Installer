@@ -2,10 +2,10 @@
 
 ## Instructions:
 
-Lancez requirements.bat pour installer les dépendences.
+  Lancez requirements.bat pour installer les dépendences.
 
-Puis lancez Installer.bat pour installer "Melon Client" + Optifine.
+  Puis lancez Installer.bat pour installer "Melon Client" + Optifine.
 
-Lancez vôtre minecraft et choisisez "Melon Client".
+  Lancez vôtre minecraft et choisisez "Melon Client".
 
-Melon client à été installé !
+  Melon client à été installé !
