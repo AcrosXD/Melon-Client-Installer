@@ -1,6 +1,6 @@
 # Melon-Client-Installer
 
-Instructions:
+## Instructions:
 
 Lancez requirements.bat pour installer les dépendences.
 
